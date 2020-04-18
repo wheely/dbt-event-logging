@@ -1,6 +1,6 @@
 {% macro get_audit_schema() %}
 
-    {{ return(target.schema~'_meta') }}
+    {{ return('meta') }}
 
 {% endmacro %}
 
