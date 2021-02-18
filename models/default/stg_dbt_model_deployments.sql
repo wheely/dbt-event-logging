@@ -10,8 +10,8 @@ aggregated as (
 
         {{ dbt_utils.surrogate_key([
             'event_model',
-            'invocation_id']
-        ) }} as model_deployment_id,
+            'invocation_id'
+        ]) }} as model_deployment_id,
 
         invocation_id,
         event_model as model,
